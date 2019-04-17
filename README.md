@@ -15,7 +15,6 @@ Apache & IntelliJ mit der REST API<br>
 <p>Wir als hannoveranische Stundenten dachten uns, es wäre cool, unsere Wahlheimat in das Projekt einzubinden. <br>
 Deswegen haben wir uns überlegt, dass wir einen Guide machen wollen, in dem man seine Lieblingsbars und -kneipen eintragen kann, um schnell eine Übersicht über empfehlenswerte Studentische Feierabendlokationen zu erhalten ;) <br>
 </p>
-*** <br>
 ## Verwendete Technologien
 <p>Wir verwenden in unserem Projekt die vorgegebenen Technologien Html + Rest mit Json. Zudem verschönern wir das Html mit optionalem CSS, binden eine MySql-Datenbank über Java bzw. Php ein, benutzen XML und binden "Special Features" von Html5 ein. <br>
 <br>
