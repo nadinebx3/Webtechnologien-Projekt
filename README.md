@@ -1,7 +1,7 @@
 # Webtechnologien-Projekt 
 
 ## Vorraussetzung: 
-Apache & IntelliJ mit der REST API<br>
+Apache & NetBeans mit der REST API<br>
 
 ## Projektidee: Ein Bar + Kneipen Guide von Hannover
 
