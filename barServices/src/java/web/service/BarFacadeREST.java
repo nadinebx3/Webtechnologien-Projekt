@@ -5,7 +5,6 @@ import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -27,20 +26,14 @@ public class BarFacadeREST extends AbstractFacade<Bar> {
     public BarFacadeREST() {
         super(Bar.class);
     }
-
-    @DELETE
-    @Path("{id}")
-    public void remove(@PathParam("id") Integer id) {
-        super.remove(super.find(id));
-    }
-
+/*  GET Abfrage  mit der Umwandlung in entweder XML oder JSON*/
     @GET
     @Path("{id}")
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
     public Bar find(@PathParam("id") Integer id) {
         return super.find(id);
     }
-
+/*  GET Abfrage  mit der Umwandlung in entweder XML oder JSON*/
     @GET
     @Override
     @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})

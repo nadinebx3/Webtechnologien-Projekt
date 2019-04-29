@@ -1,5 +1,5 @@
-
 package web;
+
 import javax.xml.bind.annotation.XmlElement;
 import java.io.Serializable;
 import javax.persistence.Basic;
@@ -19,7 +19,12 @@ import javax.xml.bind.annotation.XmlRootElement;
  */
 @Entity
 @Table(name = "bar")
-@XmlRootElement
+
+/*  Die folgende Zeile ist auskommentiert , 
+um unsere Rest Api als Json anzuzeigen. Kommentieren wir das wieder aus , ist es sowohl als Json ,
+als auch als XML Element verfügbar
+ */
+ //@XmlRootElement
 @NamedQueries({
     @NamedQuery(name = "Bar.findAll", query = "SELECT b FROM Bar b")
     , @NamedQuery(name = "Bar.findByBarId", query = "SELECT b FROM Bar b WHERE b.barId = :barId")
@@ -75,7 +80,7 @@ public class Bar implements Serializable {
         this.ort = ort;
         this.telefon = telefon;
     }
-    @XmlElement
+
     public Integer getBarId() {
         return barId;
     }
@@ -83,7 +88,7 @@ public class Bar implements Serializable {
     public void setBarId(Integer barId) {
         this.barId = barId;
     }
-        @XmlElement
+
     public String getName() {
         return name;
     }
@@ -100,15 +105,14 @@ public class Bar implements Serializable {
         this.strasse = strasse;
     }
 
-        @XmlElement
-        public int getPlz() {
+    public int getPlz() {
         return plz;
     }
 
     public void setPlz(int plz) {
         this.plz = plz;
     }
-    @XmlElement
+
     public String getOrt() {
         return ort;
     }
@@ -116,7 +120,8 @@ public class Bar implements Serializable {
     public void setOrt(String ort) {
         this.ort = ort;
     }
-    @XmlElement
+
+    
     public int getTelefon() {
         return telefon;
     }
@@ -132,10 +137,9 @@ public class Bar implements Serializable {
         return hash;
     }
 
-
     @Override
     public String toString() {
         return "web.Bar[ barId=" + barId + " ]";
     }
-    
+
 }
