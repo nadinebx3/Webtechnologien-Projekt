@@ -1,11 +1,14 @@
 <?php
-    $curl = curl_init();
-    curl_setopt ($curl, CURLOPT_URL, "http://localhost:8080/PLATZER");
+    /*$curl = curl_init();
+    curl_setopt ($curl, CURLOPT_URL, "http://localhost:8888/Mensaapi/gerichte/");
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-
     $result = curl_exec ($curl);
     curl_close ($curl);
-    $result_arr = json_decode($result, true);
+    $result_arr = json_decode($result, true);*/
+    
+    $url = "http://localhost:8080/barServices/webresources/web.bar/";
+    $json = file_get_contents($url);
+    $bars = json_decode($json, true);
 ?>
 
 
@@ -101,11 +104,21 @@
         <form action="Bars.php" method="post">
               Postleitzahl: <input type="search" id="suche" name="plz">	
             <input type="Submit" value="suchen"/>
-        </form> 
-  
+        </form>
+        <a href="#about" class="page-scroll">Suche mit REST</a>
+        <form action="suchRest.php" method="post">
+              Postleitzahl: <input type="search" id="suche" name="plz">
+            <input type="Submit" value="suchen"/>
+        </form>
+        
+       <!-- <?php foreach($bars as $bar):
+            
+            echo $bar['name'] . $bar['strasse'];
+            endforeach; ?>-->
     </div>
   </div>
 </div>    
+
 
 
 <?php include 'footer.php'?>
