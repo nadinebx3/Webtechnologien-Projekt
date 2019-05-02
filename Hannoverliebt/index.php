@@ -11,7 +11,7 @@
         <div class="about-text">
           <h2> Informationen</h2>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+          <p>Die studentische Bar- und Kneipenlandschaft in Hannover zeigt sichn umfangreich und vielfätig. Um alteingesessenen und neuen Studierenden in der Landeshauptstadt Niedersachsens eine Möglichkeit zu geben, diese vielseitigen kulturschätze angemessen zu würdigen, haben wir diese Initiatie ins Leben gerufen. Zielsetzung ist eine übersichtliche, leicht zu bedienende und umfangreiche Datenbank, die die Öffnungszeiten, Lokationen und in Zukunft auch Getränke- und Speisenangebote der jeweiligen Gaststätten darstellt. </p>
         </div>
       </div>
     </div>

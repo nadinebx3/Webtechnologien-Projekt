@@ -1,27 +1,27 @@
 <div id="footer">
   <div class="container text-center">
     <div class="col-md-4">
-      <h3>Addresse</h3>
+      <h3>Adresse</h3>
       <div class="contact-item">
         <p>HS Hannover,</p>
-        <p>Ricklinger Stadtweg 120 , 30459 Hannover</p>
+        <p>Ricklinger Stadtweg 120</p>
+        <p>30459 Hannover</p>
       </div>
     </div>
     <div class="col-md-4">
       <h3>Öffnungszeiten</h3>
-      <div class="contact-item">
-        <p>Montag bis Freitag: 8:00 - 16:00 Uhr </p>
-        <p>Samstag bis Sonntag: Geschlossen</p>
+      <div class="contact-item"><p>ONLINE  24/7 </p>
+        <p>for your pleasure <3</p>
       </div>
     </div>
     <div class="col-md-4">
-      <h3>By</h3>
+<h3>Von: </h3>
       <div class="contact-item">
         <p> 
             &copy;Alina Knaak 
             &copy;Firas Shmit 
             &copy;Nadine Fakih
-            &copy;Valerie V 
+            &copy;Valerie Vaske
             &copy;Claudia Gierszendorf
         </p>
           <?php
