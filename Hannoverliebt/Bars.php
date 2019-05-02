@@ -1,4 +1,4 @@
-
+<!-- Stellt DB Verbindung her, ermöglicht Suche nach plz -->
 <?php
 	
 	require('DBConnection.php');
